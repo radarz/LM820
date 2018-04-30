@@ -1,0 +1,38 @@
+﻿生成启动时间为 2017/6/28 19:04:50。
+     1>项目“E:\LM820\source\win32\radar_clt\radar_clt.vcxproj”在节点 2 上(build 个目标)。
+       项目文件包含 ToolsVersion="10.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>InitializeBuildStatus:
+         正在创建“Debug\radar_clt.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\util_log.c
+         util_log.c
+     1>e:\lm820\source\util_log.c(137): warning C4244: “初始化”: 从“double”转换到“TFloat”，可能丢失数据
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\LM820\source\win32\radar_clt\Debug\radar_clt.exe" /INCREMENTAL /NOLOGO E:\Download\opencv\build\x86\vc11\lib\opencv_world300.lib E:\Download\opencv\build\x86\vc11\lib\opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\radar_clt.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\LM820\source\win32\radar_clt\Debug\radar_clt.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\LM820\source\win32\radar_clt\Debug\radar_clt.lib" /MACHINE:X86 Debug\radar_clt.exe.embed.manifest.res
+         Debug\radar_clt_main.obj
+         Debug\radar_ops.obj
+         Debug\util_crc.obj
+         Debug\util_log.obj
+         Debug\util_timer.obj
+         Debug\xcom.obj
+         Debug\xcom_port.obj
+         Debug\display_win32.obj
+         Debug\hal_win32.obj
+         Debug\main.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\radar_clt.exe.embed.manifest" /manifest Debug\radar_clt.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         radar_clt.vcxproj -> E:\LM820\source\win32\radar_clt\Debug\radar_clt.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\radar_clt.unsuccessfulbuild”。
+         正在对“Debug\radar_clt.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\LM820\source\win32\radar_clt\radar_clt.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.48
